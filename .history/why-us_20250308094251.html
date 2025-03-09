@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+         rel="icon"
+         type="image.png"
+         sizes="32x32"
+         href="images/VogueLogo.png">
+        <link rel="stylesheet" href="myStyle/style.css">
+    <link rel="stylesheet" href="link pages/why-us.html">
+    <link rel="stylesheet" href="link pages/gallery.html">
+    <link rel="stylesheet" href="link pages/packages.html">
+    
+    <title>Vogue4Me360|Why-Us</title>
+
+    <style>
+        /* Hamburger Menu Styles */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+  
+        .menu-toggle div {
+            width: 30px;
+            height: 4px;
+            background-color: white;
+            margin: 5px;
+            transition: 0.3s;
+        }
+  
+        .link-pages {
+            display: flex;
+            gap: 20px;
+        }
+  
+        /* #headerText {
+            font-size: 5vw;
+            text-align: center;
+            margin-top: 20px;
+        } */
+  
+        #myLogo {
+            height: 200px;
+            width: 200px;
+            transition: all 0.3s ease;
+        }
+        #headerText {
+      align-content: center;
+      margin-top: 70px;
+      font-size: 150px;
+      font-family: myFont3;
+      height: 120px;
+      border-radius: 80px;
+      text-shadow: 5px 15px 40px #0055d4f5;
+      font-weight: 100;
+
+  }
+  
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+  
+            .link-pages {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background-color: rgba(56, 56, 56, 0.9);
+                width: 100%;
+                text-align: center;
+                padding: 20px 0;
+            }
+  
+            .link-pages.active {
+                display: flex;
+            }
+  
+            #myLogo {
+                height: 80px;
+                width: 80px;
+                display: block;
+                margin: 0 auto;
+            }
+  
+            #headerText {
+                font-size: 20vw;
+                text-align: center;
+                margin-top: 10px;
+            }
+  
+            .packageTitle {
+                font-size: 5vw;
+            }
+  
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+  
+            .vidBox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+  
+        .vidBox video {
+            width: 100%;
+            max-width: 1000px;
+            height: 500px;
+            transition: height 0.3s ease;
+        }
+  
+        .blueLight {
+          display: none;
+        }
+  
+        .socialMediaBox {
+          display: flex;
+          flex-direction: column;
+        }
+  
+        .packageContainer {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .whyUsImgContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 40vh;
+            width: 100vw;
+        }
+
+        #whyUsImg{
+            height: 100vh;
+            width: 50vw;
+        }
+
+        .whyUsTextContainer{
+            display: flex;
+           
+            max-width: 100vw;
+            
+        }
+
+        #whyUsHeading{
+            display: flex;
+          
+            
+            align-items: center;
+            font-size: 8vw;
+        }
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="images/newLogo.png" id="myLogo" alt="Vogue4Me360 Logo">
+            <h1 id="headerText">VOGUE-4ME-360</h1>
+            
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+            <nav class="link-pages" id="link_pages">
+                <h3><a href="home.html" id="myLinks">Home</a></h3>
+                <h3><a href="why-us.html" id="myLinks">Why Us</a></h3>
+                <h3><a href="gallery.html" id="myLinks">Gallery</a></h3>
+                <h3><a href="contactUs.html" id="myLinks">Contact Us</a></h3>
+            </nav>
+        </header>
+
+
+    <div class="whyUsImgContainer">
+            <img id="whyUsImg" src="images/360mach.jpg" alt="">
+    </div>
+
+        <div class="whyUsTextContainer">
+            <h2 id="whyUsHeading">Vogue 4Me 360 - Creating memories that will last forever</h2>
+            <p style="margin-bottom: 100px;" id="whyUsText">
+                Why Choose Our 360 Photo Booth for Your Event?
+
+When it comes to capturing unforgettable moments, our 360 Photo Booth takes your event to the next level! Here’s why you should book with us: <br>
+
+📸 Unique & Immersive Experience – Unlike traditional photo booths, our 360 booth creates stunning, dynamic videos that your guests will love. <br>
+
+✨ High-Quality, Shareable Content – We deliver HD slow-motion, boomerang, and fully customized videos ready for instant social media sharing. <br>
+
+🎨 Personalized Branding & Effects – Custom overlays, music, and effects to match your event’s theme, making every video unique. <br>
+
+💃 Fun & Engaging for Everyone – Whether it's a wedding, birthday, corporate event, or any celebration, our booth adds excitement and interaction for all ages. <br>
+
+🚀 Professional Setup & Service – We handle everything from start to finish, ensuring a seamless and stress-free experience. <br>
+
+🎁 Affordable & Competitive Packages – We offer flexible pricing to fit your budget while delivering top-tier entertainment. <br>
+
+Make your event unforgettable with our 360 Photo Booth Experience! <br> 
+🎉 Contact us today to book your date!
+            </p>
+            <h1" id="whyUsHeading">Vogue 4Me 360 Features</h1>
+        </div>
+
+
+
+
+        
+        <div class="servicesContainer" style="gap: 160;padding-left: 250px;padding-right: 250px;">
+            
+            <div class="serviceBox">
+                <div class="headBox">360 Photo Booth</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-360booth.png" alt="">
+                </div>
+                <p>
+                    Our 360 Photo Booth captures stunning, videos from every angle, 
+                    creating a fun and immersive experience for your guests. With 
+                    custom overlays, music, and instant sharing, each video is personalized 
+                    and ready to go viral. Perfect for weddings, parties, and corporate events, 
+                    it turns ordinary moments into unforgettable memories!
+                </p>
+            </div>
+
+            <div class="serviceBox">
+                <div class="headBox">Sharing Station</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-sharing.png" alt="">
+                </div>
+                <p>
+                    Our Sharing Station makes it easy for guests to instantly access 
+                    and share their 360 videos right after recording. With a quick tap, 
+                    they can download, text, email, or post their videos to social media, 
+                    ensuring every special moment is shared in real time. It’s the perfect 
+                    addition to keep the excitement going and make your event even more memorable!
+                </p>
+            </div>
+
+
+
+                <div class="serviceBox">
+                <div class="headBox">Special Effects & Filters</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-effects.png" alt="">
+                </div>
+                <p>
+                    Our special effects and features take your 360 videos to the 
+                    next level! With slow motion, boomerang, custom overlays, animations, 
+                    and music, every video is uniquely tailored to match your event’s vibe. 
+                    Add branded graphics, themed effects, and instant sharing for a truly 
+                    interactive and unforgettable experience that your guests will love!
+                </p>
+            </div>
+
+            <div class="serviceBox">
+                <div class="headBox">Custom Background Music</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-music.png" alt="">
+                </div>
+                <p>
+                    Our custom background music adds the perfect touch to every 360 video, 
+                    creating a fully immersive and personalized experience. Whether it’s a 
+                    hype party track, romantic melody, or branded sound, we match the music 
+                    to your event’s theme, making every video more exciting and memorable!
+                </p>
+            </div>
+
+
+            <div class="serviceBox">
+                <div class="headBox">Custom Overlay</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-overlay.png" alt="">
+                </div>
+                <p>
+                    Our custom overlays add a unique and personalized touch to every 360 video. 
+                    From logos and event themes to stylish animations and branding, we design overlays 
+                    that make your videos stand out. Whether it’s a wedding, corporate event, or party, 
+                    our custom graphics ensure each video is a perfect reflection of your special occasion!
+                </p>
+            </div>
+
+            <div class="serviceBox">
+                <div class="headBox">Fun Props</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-props.png" alt="">
+                </div>
+                <p>
+                    Our fun and stylish props bring extra excitement to every 360 video! From glasses, hats, and signs 
+                    to themed accessories, our props let guests express their personalities and enhance their videos with 
+                    creativity and flair. They add the perfect touch of fun, making every moment more engaging and unforgettable!
+                </p>
+            </div>
+
+            <div class="serviceBox">
+                <div class="headBox">Online Gallery</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-gallery.png" alt="">
+                </div>
+                <p>
+                    Our sharable online gallery lets your guests relive the fun long after the event is over! Every 360 video is uploaded 
+                    to a private gallery, making it easy to view, download, and share with friends and family. It’s the perfect way to keep 
+                    the memories alive and share the excitement with everyone!
+                </p>
+            </div>
+
+            <div class="serviceBox">
+                <div class="headBox">Vogue Technician</div>
+                <div class="serviceImg">
+                    <img id="servImg" src="featureImages/f-techn.png" alt="">
+                </div>
+                <p>
+                    Our professional technicians ensure a smooth and hassle-free experience from start to finish! They handle the setup, operation, 
+                    and troubleshooting of the 360 Photo Booth, so you can focus on enjoying your event. Friendly and knowledgeable, our team is there 
+                    to assist guests, ensuring everyone gets the best video possible!
+                </p>
+            </div>
+
+            </div>
+
+
+
+        
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById("link_pages").classList.toggle("active");
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

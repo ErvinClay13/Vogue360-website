@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@font-face {
+    font-family: myFont;
+   src: url(School.otf); 
+}
+
+@font-face {
+    font-family: myFont2;
+   src: url(TripleRainbow.otf); 
+}
+
+@font-face {
+    font-family: myFont3;
+   src: url(NewFont.ttf); 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(187, 187, 187, 0.674);
+    background-image: url(backgroundLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#myLogo {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: solid 4px #0055d4f5;;
+    border-radius: 150px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 50px;
+    background-color: rgba(56, 56, 56, 0.698);
+    height: 30vh;
+    box-shadow: 5px 15px 40px #0055d4f5;
+}
+
+a {
+    text-decoration: underline;
+    color: #151515;
+}
+
+a:link {
+    color: #151515;
+}
+
+a:hover {
+    color: #01398cf5;
+    text-decoration: underline;
+}
+
+.link-pages {
+    align-self: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: "Yellowtail", cursive;
+    display: flex;
+    gap: 20px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    text-shadow: 5px 15px 30px #0055d4f5;
+}
+
+
+
+#myLink {
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px 15px 20px #0055d4;
+    cursor: url("cursorLogo.png"), auto;
+}
+#myLink:hover{
+    color: #01398cf5;
+}
+
+
+
+
+
+#servImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#packImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+
+
+#headerText {
+    align-content: center;
+    margin-top: 70px;
+    font-size: 150px;
+    font-family: myFont3;
+    height: 120px;
+    border-radius: 80px;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    font-weight: 100;
+
+}
+
+
+
+.galleryContainer {
+    margin-top: 60PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+.galleryBoxes {
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between;
+    row-gap: 25px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+}
+
+.boxes:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 15px 40px #8600d4f5;
+}
+
+.homeVidContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px
+}
+
+.vidBox {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+}
+
+.packageTitle {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 5px 15px 40px #0055d4f5;
+}
+
+.packageContainer {
+    margin-top: 100px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    margin-bottom: 100px;
+}
+
+#pack {
+    border: solid 2px rgb(67, 67, 67);
+    box-shadow: 5px 15px 40px #0055d4f5;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#pack:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 15px 40px #8600d4f5;
+    background-color: #8600d45b;
+}
+
+.headBox {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.headBox:hover {
+    color:#8600d4f5;
+    cursor: url("cursorLogo.png"), auto;
+}
+
+.headService {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    
+}
+
+.servicesContainer {
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.serviceBox {
+    max-width: 300px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.serviceBox:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 15px 40px #8600d4f5;
+    
+}
+.bookToday {
+    margin-top: 10px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    cursor: url("cursorLogo.png"), auto;
+    border: solid 2px #0055d4f5;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    
+}
+
+.bookToday:hover {
+    background-color: #8600d4f5;
+}
+
+.package {
+    max-width: 300px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aboutUsContainer {
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    margin-bottom: 100px;
+}
+
+.aboutUsBox {
+    max-width: 300px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.aboutUsBox:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 15px 40px #8600d4f5;
+   
+}
+
+.socialMediaContainer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.socialMediaBox {
+    display: flex;
+    gap: 80px;
+}
+
+#socImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    cursor: url("cursorLogo.png"), auto;
+}
+
+#socImg:hover {
+    box-shadow: 5px 15px 40px #8600d4f5;
+    transform: scale(1.2);
+}
+
+.whyUsImgContainer {
+    width: 1920px;
+    background-color: gray;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+}
+
+
+
+.whyUsTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#whyUsHeading{
+    font-size: 45px;
+    text-shadow: 5px 15px 40px #0055d4f5;
+}
+ 
+#whyUsText {
+    margin-top: 25px;
+    font-size: 25px;
+    width: 1400px;
+    text-shadow: 5px 15px 40px #0055d4f5;
+}
+
+.whyUsFeaturesContainer {
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+#whyUsImg {
+    height:600px;
+    width: 600px;
+}
+
+
+.featureBox {
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.galleryBoxes {
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between;
+    row-gap: 25px;
+    box-shadow: 5px 15px 40px #0055d4f5;
+}
+
+
+.price {
+    display: flex;
+    flex-direction: ;
+}

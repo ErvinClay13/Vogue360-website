@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+         rel="icon"
+         type="image.png"
+         sizes="32x32"
+         href="images/VogueLogo.png">
+    <link rel="stylesheet" href="myStyle/style.css">
+    <link rel="stylesheet" href="why-us.html">
+    <link rel="stylesheet" href="gallery.html">
+    <link rel="stylesheet" href="packages.html">
+    <title>Vogue4Me360|Gallery</title>
+
+    <style>
+        /* Hamburger Menu Styles */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .menu-toggle div {
+            width: 30px;
+            height: 4px;
+            background-color: white;
+            margin: 5px;
+            transition: 0.3s;
+        }
+
+        .link-pages {
+            display: flex;
+            gap: 20px;
+        }
+
+        #headerText {
+            font-size: 5vw;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #myLogo {
+            height: 200px;
+            width: 200px;
+            transition: all 0.3s ease;
+        }
+        #headerText {
+    align-content: center;
+    margin-top: 70px;
+    font-size: 150px;
+    font-family: myFont3;
+    height: 120px;
+    border-radius: 80px;
+    text-shadow: 5px 15px 40px #0055d4f5;
+    font-weight: 100;
+
+}
+
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .link-pages {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                background-color: rgba(56, 56, 56, 0.9);
+                width: 100%;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            .link-pages.active {
+                display: flex;
+            }
+
+            #myLogo {
+                height: 80px;
+                width: 80px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            #headerText {
+                font-size: 20vw;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .headService h1 {
+                font-size: 5vw;
+            }
+
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .vidBox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .vidBox video {
+            width: 100%;
+            max-width: 1000px;
+            height: 500px;
+            transition: height 0.3s ease;
+        }
+
+        .blueLight {
+          display: none;
+        }
+
+        .socialMediaBox {
+          display: flex;
+          flex-direction: column;
+        }
+        
+        }
+    </style>
+
+</head>
+<body>
+  
+    <div class="wrapper">
+        <header>
+            <img src="images/newLogo.png" id="myLogo" alt="Vogue4Me360 Logo">
+            <h1 id="headerText">VOGUE-4ME-360</h1>
+            
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+            <nav class="link-pages" id="link_pages">
+                <a href="why-us.html">Why Us</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="packages.html">Packages</a>
+                <a href="contactUs.html">Contact Us</a>
+            </nav>
+        </header>
+        <div style="background-color: rgb(0, 0, 0);" class="homeVidContainer">
+            <div class="vidBox">
+                <div class="boxes"> <video autoplay controls muted loop src="videoGallery/hoW IT STARTED(4).mp4" width="100%" height="700" ></video></div>
+            </div>
+        </div>
+        <div class="galleryContainer">
+            <H1>GALLERY</H1>
+            <div class="galleryBoxes">
+                <div class="boxes"> <video controls src="videoGallery/jacketvid.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/galVid2.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/galVid6.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/galVid4.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/galVid3.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr1.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr2.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr3.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr4.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr5.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr6.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr7.MP4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="gif_boomRangGallery/VogueBr8.MP4" width="200" height="300"></video></div>
+                <!-- <div class="boxes"> <video controls src="videoGallery/jacketvid.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/jacketvid.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/jacketvid.mp4" width="200" height="300"></video></div>
+                <div class="boxes"> <video controls src="videoGallery/jacketvid.mp4" width="200" height="300"></video></div> -->
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            document.getElementById("link_pages").classList.toggle("active");
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
